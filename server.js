@@ -1,17 +1,19 @@
-const express = require("express")
+const express = require('express');
 const connectDB = require('./config/db');
 
-const app = express()
-const port = 5000
+const app = express();
+const PORT = process.env.PORT || 3000;
 
+// Connect to MongoDB
 connectDB();
 
 app.use(express.json());
 
-app.get("/", (req, res) =>{
-    res.send("hello world")
-})
+app.get("/", (req, res) => {
+    res.send("HomePage Of The App");
+});
 
-app.listen(port, () =>{
-    console.log(`my application is ${port}`)
-})
+
+app.listen(PORT, () => {
+    console.log(`Server running at http://localhost:${PORT}`);
+});
