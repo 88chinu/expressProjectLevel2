@@ -35,17 +35,21 @@
 ## Installation
 
 ### Clone the repository:
-    ```bash
+    
     git clone https://github.com/88chinu/expressLevel2Practice.git
     cd expressLevel2Practice
 ### Install the dependencies:
-    ```bash
-    npm install
+    
+    npm install express mongoose nodemon
     
 ### Start the application:
-
-    ```bash
-    npm start
+  - For run the database
+    ```
+    Make dbUp     
+ - For run the server
+   ```
+   Make serverUp
+   
 ## Usage
 - Once the application is running, you can access it at http://localhost:3000 (or whatever port you have specified). Use a tool like Postman or the VS code extation 'Thunder Client" to test the API endpoints.
 
