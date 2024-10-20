@@ -40,7 +40,7 @@
     cd expressLevel2Practice
 ### Install the dependencies:
     
-    npm install express mongoose nodemon
+    npm install express mongoose nodemon 
     
 ### Start the application:
   - For run the database
