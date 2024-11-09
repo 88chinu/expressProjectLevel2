@@ -17,5 +17,5 @@ app.get("/", (req, res) => {
 app.use('/api', bookRoutes); // Use book routes with prefix '/api'
 
 app.listen(PORT, () => {
-    console.log(`Server running at http://localhost:${PORT}`);
+    console.log(`Server is running at the port http://localhost:${PORT}`);
 });
